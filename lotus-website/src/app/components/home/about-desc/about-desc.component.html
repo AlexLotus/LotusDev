@@ -1,0 +1,11 @@
+<div class="cardHolder">
+  <h1>Features</h1>
+  <div *ngFor="let aboutComp of aboutComponents" class="card cardComp">
+    <div>
+      <img class="aboutImage" src='{{aboutComp.imageUrl}}'>
+    </div>
+    <h1>{{aboutComp.header}}</h1>
+    <h2>{{aboutComp.subHeader}}</h2>
+    <p>{{aboutComp.body}}</p>
+  </div>
+</div>
