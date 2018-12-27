@@ -11,6 +11,7 @@ import { TestComponent } from './components/test/test.component';
 import { Test2Component } from './components/test2/test2.component';
 import { AboutDescComponent } from './components/home/about-desc/about-desc.component';
 import { CurrentTimeComponent} from './components/home/current-time/current-time.component';
+import { CopyComponent } from './components/home/copy-code/copy.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { CurrentTimeComponent} from './components/home/current-time/current-time
     TestComponent,
     Test2Component,
     AboutDescComponent,
-    CurrentTimeComponent
+    CurrentTimeComponent,
+    CopyComponent
   ],
   imports: [
     BrowserModule,
