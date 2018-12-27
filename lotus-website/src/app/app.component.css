@@ -1,9 +1,5 @@
 .logoImage {
-  width: 25px;
-  height: 25px;
-  margin: 0px;
-  padding: 0px;
-  background-color: blue;
+  height: 30px;
 }
 .headerContainer{
     background-color: #4d4d6b;
@@ -11,6 +7,10 @@
 
 
 }
+
 h1{
     color: white;
+}
+.time {
+  color: dodgerblue;
 }
