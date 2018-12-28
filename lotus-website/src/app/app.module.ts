@@ -13,6 +13,8 @@ import { AboutDescComponent } from './components/home/about-desc/about-desc.comp
 import { CurrentTimeComponent} from './components/home/current-time/current-time.component';
 import { CopyComponent } from './components/home/copy-code/copy.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NavComponent } from './components2/nav/nav.component';
+import { Home2Component } from './components2/home2/home2.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     Test2Component,
     AboutDescComponent,
     CurrentTimeComponent,
-    CopyComponent
+    CopyComponent,
+    NavComponent,
+    Home2Component
   ],
   imports: [
     BrowserModule,
