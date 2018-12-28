@@ -2,3 +2,33 @@ img {
   width: 800px;
   position: absolute;
 }
+@keyframes moveup {
+  0% {top: 100px;}
+  10% {top: 105px;}
+  20% {top: 110px;}
+  30% {top: 115px;}
+  40% {top: 120px;}
+  50% {top: 125px;}
+  60% {top: 120px;}
+  70% {top: 115px;}
+  80% {top: 110px;}
+  90% {top: 105px;}
+  100% {top: 100px;}
+}
+
+
+.img1 {
+  animation-name: moveup;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+.img2 {
+  animation-name: moveup;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+.img3 {
+  animation-name: moveup;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
