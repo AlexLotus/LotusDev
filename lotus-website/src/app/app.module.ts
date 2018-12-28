@@ -12,6 +12,7 @@ import { Test2Component } from './components/test2/test2.component';
 import { AboutDescComponent } from './components/home/about-desc/about-desc.component';
 import { CurrentTimeComponent} from './components/home/current-time/current-time.component';
 import { CopyComponent } from './components/home/copy-code/copy.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { CopyComponent } from './components/home/copy-code/copy.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

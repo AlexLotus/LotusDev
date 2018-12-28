@@ -10,13 +10,13 @@
       <a class="nav-link">{{title}}</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" [routerLink]="['']">Home</a>
+      <a class="link" routerLinkActive="is-active"  [routerLink]="['/home']">Home</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" [routerLink]="['/about']">About</a>
+      <a class="link" routerLinkActive="is-active"  [routerLink]="['/about']">About</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" [routerLink]="['/test2']">Test2</a>
+      <a class="link" [routerLink]="['/test2']" routerLinkActive="is-active">Test2</a>
     </li>
   </ul>
   <ul class="navbar-nav ml-auto">

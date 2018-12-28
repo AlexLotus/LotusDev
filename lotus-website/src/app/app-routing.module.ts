@@ -6,9 +6,15 @@ import { TestComponent } from './components/test/test.component';
 import { Test2Component } from './components/test2/test2.component';
 
 const routes: Routes = [
+
+  {
+    path: 'home',
+    component: HomeComponent
+  },
   {
     path: '',
-    component: HomeComponent
+    redirectTo: 'home',
+    pathMatch: 'full'
   },
   {
     path: 'about',
