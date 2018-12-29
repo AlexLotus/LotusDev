@@ -1,0 +1,11 @@
+.card {
+    width: 250px;
+    margin: 50px auto;
+    border-top: none;
+}
+.text {padding: 25px; text-align: center;}
+.hey {background-color: red; padding: 2px; border: none;}
+.card-header {border-top: none;}
+
+.hey2 {background-color: purple; padding: 2px; border: none;}
+.hey4 {background-color: dodgerblue;}

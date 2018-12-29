@@ -1,7 +1,6 @@
 .logo {
   background-color: dodgerblue;
   text-align: center;
-  height: 500px;
 }
 
 h1 {
@@ -15,4 +14,18 @@ h1 {
   margin: 15px;
   color: white;
   margin-top: 0px;
+}
+.big {
+  color: white;
+  font-size: 100px;
+}
+
+input {
+  background-color: dodgerblue !important;
+  color: white;
+  border: none;
+  width: 250px;
+  height: 50px;
+  font-size: 36px;
+  border-bottom: 1px solid white;
 }

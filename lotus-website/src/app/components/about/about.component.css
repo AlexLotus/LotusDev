@@ -3,17 +3,19 @@ img {
   position: absolute;
 }
 @keyframes moveup {
-  0% {top: 100px;}
-  10% {top: 105px;}
-  20% {top: 110px;}
-  30% {top: 115px;}
-  40% {top: 120px;}
-  50% {top: 125px;}
-  60% {top: 120px;}
-  70% {top: 115px;}
-  80% {top: 110px;}
-  90% {top: 105px;}
-  100% {top: 100px;}
+  0% {transform: translate(0px, 0px);}
+  50% {transform: translate(15px, -25px);}
+  100% {transform: translate(0px, 0px);}
+}
+@keyframes moveup2 {
+  0% {transform: translate(20px, -30px);}
+  50% {transform: translate(55px, -65px);}
+  100% {transform: translate(20px, -30px);}
+}
+@keyframes moveup3 {
+  0% {transform: translate(60px, -70px);}
+  50% {transform: translate(90px, -100px);}
+  100% {transform: translate(60px, -70px);}
 }
 
 
@@ -23,12 +25,12 @@ img {
   animation-iteration-count: infinite;
 }
 .img2 {
-  animation-name: moveup;
+  animation-name: moveup2;
   animation-duration: 4s;
   animation-iteration-count: infinite;
 }
 .img3 {
-  animation-name: moveup;
+  animation-name: moveup3;
   animation-duration: 4s;
   animation-iteration-count: infinite;
 }
