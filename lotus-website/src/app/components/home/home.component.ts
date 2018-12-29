@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -7,11 +7,27 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  name: string = '';
+  _name: string = '';
+
+  @Input()
+  public set name(val: string) {
+    this._name = val;
+    this.childFunction();
+  }
+  public childFunction() {
+    if (this._name.length < 1) {
+      document.getElementById("blinker").style.display = "inline";
+    }
+    else {
+      document.getElementById("blinker").style.display = "none";
+    }
+  }
 
   constructor() { }
 
   ngOnInit() {
   }
+
+  
 
 }

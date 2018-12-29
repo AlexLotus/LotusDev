@@ -1,13 +1,14 @@
 <div class="body">
   <div class="logo">
-    <img src="http://lotusgfx.com/images/lotus.png">
+    <img src="../../../assets/images/lotus.png">
     <h1>Lotus Development</h1>
     <p>Alex Kondratenko and Slavic Sidorov</p>
     <a class="big link" [routerLink]="['/test2']">CHECK OUT CARDS TO USE</a><br/>
     <a class="big link" [routerLink]="['/about']">CHECK OUT IPAD TO PUT SOMEWHERE</a><br/>
     <p>Calibri Light Font</p><br />
-    Hey there {{name}}!<br />
-    <input [(ngModel)]="name" placeholder="name here">
+    Hey there {{_name}}!<br />
+    <span id="blinker">|</span>
+    <input [(ngModel)]="name">
     <br/>
     <div class="hovertext">
       <i class="tech fa fa-code fa-3x" aria-hidden="true"></i>
@@ -18,6 +19,7 @@
       <span class="hoverdisplay">HTML5</span>
     </div>
   </div>
+  
   <app-about-desc></app-about-desc>
   <app-code-copy code='<h1>hey</h1> /n <p>lol</p>'></app-code-copy>
   <app-code-copy code='Code copyingaa component'></app-code-copy>
