@@ -1,4 +1,21 @@
-p{
+p {
     margin-bottom: 100px;
     text-align: center;
+}
+
+.mainContainer {
+    text-align: center;
+    height: 500px;
+    background-color: black;
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
+
+.mainContainer img {
+    width: 250px;
+}
+
+.buttonContainer a {
+    padding: 10px;
 }

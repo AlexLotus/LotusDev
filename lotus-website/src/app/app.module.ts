@@ -3,6 +3,10 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
+
+
+
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
@@ -15,6 +19,10 @@ import { CopyComponent } from './components/home/copy-code/copy.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavComponent } from './components2/nav/nav.component';
 import { Home2Component } from './components2/home2/home2.component';
+import { About2Component } from './components2/about2/about2.component';
+
+
+
 
 @NgModule({
   declarations: [
@@ -27,7 +35,8 @@ import { Home2Component } from './components2/home2/home2.component';
     CurrentTimeComponent,
     CopyComponent,
     NavComponent,
-    Home2Component
+    Home2Component,
+    About2Component
   ],
   imports: [
     BrowserModule,
