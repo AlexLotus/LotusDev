@@ -1,0 +1,9 @@
+.navbar {
+    position: absolute;
+    color: white;
+}
+.lotus {
+    height: 20px;
+    display: inline-block;
+    margin: 5px;
+}
