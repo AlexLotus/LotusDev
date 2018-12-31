@@ -20,8 +20,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavComponent } from './components2/nav/nav.component';
 import { Home2Component } from './components2/home2/home2.component';
 import { About2Component } from './components2/about2/about2.component';
-
-
+import { TypingAnimationDirective } from 'angular-typing-animation';
 
 
 @NgModule({
@@ -36,14 +35,17 @@ import { About2Component } from './components2/about2/about2.component';
     CopyComponent,
     NavComponent,
     Home2Component,
-    About2Component
+    About2Component,
+    TypingAnimationDirective
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+ 
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,15 +1,12 @@
-<app-nav></app-nav>
 <div class="mainContainer">
-    <img src="../../../assets/images/lotus.png">
-    <h1>Lotus Developments</h1>
+        <img class=".slide-in-elliptic-top-fwd" src="../../../assets/images/lotus.png">
+    <div class="introTextContainer">
+            <span [hideCursorOnComplete]="true" typingAnimation [typeSpeed]="40" [condition]="start" [startDelay]="1000" (complete)="onTypingAnimationComplete()">Lotus Developments</span>
+            <br>
+            <span class="line2" typingAnimation [hideCursorOnComplete]="true"  [typeSpeed]="50" [condition]="start" [startDelay]="2700" (complete)="onTypingAnimationComplete()">Development done right.</span>
+            <div class="nextButton">
 
-    <div class="buttonContainer">
-        <a routerLinkActive="is-active" [routerLink]="['/about2']">About</a>
-        <a>Projects</a>
-        <a>Contact</a>
+        </div>
     </div>
-
+    
 </div>
-<p>
-    BLNK SPACE BELOW TO SHOWCASE TEST OF NEW HOMEPAGE
-</p>

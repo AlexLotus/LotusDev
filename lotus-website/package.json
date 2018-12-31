@@ -19,13 +19,18 @@
     "@angular/platform-browser": "^7.1.4",
     "@angular/platform-browser-dynamic": "~7.1.0",
     "@angular/router": "~7.1.0",
+    "@types/jquery": "^3.3.29",
     "angular-font-awesome": "^3.1.2",
+    "angular-typing-animation": "^0.5.4",
     "bootstrap": "^4.2.1",
     "core-js": "^2.5.4",
     "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
     "rxjs": "^6.3.3",
+    "rxjs-compat": "^6.3.3",
     "s": "^0.1.1",
     "tslib": "^1.9.0",
+    "typed.js": "^2.0.9",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
