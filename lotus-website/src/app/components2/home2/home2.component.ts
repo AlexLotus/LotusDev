@@ -19,6 +19,7 @@ import {
 })
 export class Home2Component implements OnInit {
   start: boolean = false
+  start2: boolean = false
   stringInterpolation: string = "TEST"
 
   ngOnInit () {
@@ -27,6 +28,11 @@ export class Home2Component implements OnInit {
   }
   onTypingAnimationComplete () {
     console.log('#TYPING ANIMATION COMPLETE')
+    if (this.start2 != true) {
+      setTimeout(() => this.start2 = true, 400)
+      //setTimeout(function(){ this.start2 = true }, 3000);
+
+    }
     // ...
   }
 }
