@@ -30,7 +30,7 @@ import {
         
     </div>
     `,
-    styles: ['.animate {width: 300px; height: 300px; background-color: blue;} .animate img {width: 300px; position: absolute; opacity: 0; left: 0px;'],
+    styles: ['.animate {width: 300px; height: 300px; } .animate img {width: 300px; position: absolute; opacity: 0; left: 0px;'],
     animations: [
         trigger('lotusPetal1', [
             state('start', style({
