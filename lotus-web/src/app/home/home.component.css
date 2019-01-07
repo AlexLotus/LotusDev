@@ -2,14 +2,13 @@
     width: 100vw;
     height: 100vh;
     background-color: black;
+    margin: auto;
+    text-align: center;
 }
-.petal {
-    color: white;
+lotus-app {
+    position: relative;
 }
-.animate {
-    width: 500px;
-    height: 500px;
-}
-.animate img {
-    position: absolute;
+.hey {
+    width: 300px;
+    margin: auto;
 }
