@@ -8,16 +8,33 @@
     justify-content: center;
     align-content: center;
     flex-flow: column;
+    animation: upandout 1.0s forwards;
+    animation-delay: 6000ms;
 }
 lotus-app {
     position: relative;
 }
 .lotusContainer {
     width: 300px;
-    height: 300px;
+    height: 207px;
     margin: auto;
+    animation-name: pulsate;
+    animation-duration: 3s;
+    animation-delay: 2700ms;
+    animation-iteration-count: infinite;
 }
+
 .head {
     color: white;
     opacity: 0;
+}
+@keyframes pulsate {
+    0% {transform: scale(1);}
+    50% {transform: scale(.9);}
+    100% {transform: scale(1);}
+}
+
+@keyframes upandout {
+    0% {transform: translateY(0);}
+    100% {transform: translateY(-100vh); display: none;}
 }

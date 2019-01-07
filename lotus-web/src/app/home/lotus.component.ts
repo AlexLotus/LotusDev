@@ -30,7 +30,7 @@ import {
         
     </div>
     `,
-    styles: ['.animate {width: 300px; height: 300px; } .animate img {width: 300px; position: absolute; opacity: 0; left: 0px;'],
+    styles: ['.animate {width: 300px;} .animate img {width: 300px; position: absolute; opacity: 0; left: 0px;'],
     animations: [
         trigger('lotusPetal1', [
             state('start', style({
@@ -38,8 +38,8 @@ import {
             })),
             transition('void => start', [
                 animate('1000ms 500ms', keyframes([
-                  style({opacity: 0, transform: 'translateY(100px) translateX(150px) rotate(90deg)', offset: 0}),
-                  style({opacity: 0, transform: 'translateY(100px) translateX(150px) rotate(90deg)', offset: .20}),
+                  style({opacity: 0, transform: 'translateY(100px) translateX(150px) rotate(90deg) scale(.2)', offset: 0}),
+                  style({opacity: 0, transform: 'translateY(100px) translateX(150px) rotate(90deg) scale(.2)', offset: .20}),
                   style({opacity: 1, transform: 'translateY(0px) translateX(0px)', offset: 1})
                 ]))
             ])
@@ -50,8 +50,8 @@ import {
             })),
             transition('void => start', [
                 animate('1000ms 500ms', keyframes([
-                  style({opacity: 0, transform: 'translateY(100px) translateX(-150px) rotate(-90deg)', offset: 0}),
-                  style({opacity: 0, transform: 'translateY(100px) translateX(-150px) rotate(-90deg)', offset: .20}),
+                  style({opacity: 0, transform: 'translateY(100px) translateX(-150px) rotate(-90deg) scale(.2)', offset: 0}),
+                  style({opacity: 0, transform: 'translateY(100px) translateX(-150px) rotate(-90deg) scale(.2)', offset: .20}),
                   style({opacity: 1, transform: 'translateY(0px) translateX(0px)', offset: 1})
                 ]))
             ])
@@ -62,8 +62,8 @@ import {
             })),
             transition('void => start', [
                 animate('1000ms 1000ms', keyframes([
-                  style({opacity: 0, transform: 'translateX(-150px) rotate(-90deg)', offset: 0}),
-                  style({opacity: 0, transform: 'translateX(-150px) rotate(-90deg)', offset: .20}),
+                  style({opacity: 0, transform: 'translateX(-150px) rotate(-90deg) scale(.2)', offset: 0}),
+                  style({opacity: 0, transform: 'translateX(-150px) rotate(-90deg) scale(.2)', offset: .20}),
                   style({opacity: 1, transform: 'translateY(0px) translateX(0px)', offset: 1})
                 ]))
             ])
@@ -74,8 +74,8 @@ import {
             })),
             transition('void => start', [
                 animate('1000ms 1250ms', keyframes([
-                  style({opacity: 0, transform: 'translateX(150px) rotate(90deg)', offset: 0}),
-                  style({opacity: 0, transform: 'translateX(150px) rotate(90deg)', offset: .20}),
+                  style({opacity: 0, transform: 'translateX(150px) rotate(90deg) scale(.2)', offset: 0}),
+                  style({opacity: 0, transform: 'translateX(150px) rotate(90deg) scale(.2)', offset: .20}),
                   style({opacity: 1, transform: 'translateY(0px) translateX(0px)', offset: 1})
                 ]))
             ])
@@ -85,9 +85,9 @@ import {
               opacity: '1'
             })),
             transition('void => start', [
-              animate('1000ms 2250ms', keyframes([
-                style({opacity: 0, transform: 'translateY(100px) translateX(100px)', offset: 0}),
-                style({opacity: 0, transform: 'translateY(100px) translateX(100px)', offset: .20}),
+              animate('1000ms 2300ms', keyframes([
+                style({opacity: 0, transform: 'translateY(10px) translateX(25px) scale(.2)', offset: 0}),
+                style({opacity: 0, transform: 'translateY(10px) translateX(25px) scale(.2)', offset: .20}),
                 style({opacity: 1, transform: 'translateY(0px) translateX(0px)', offset: 1})
               ]))
             ])
@@ -97,9 +97,9 @@ import {
               opacity: '1'
             })),
             transition('void => start', [
-              animate('1000ms 1750ms', keyframes([
-                style({opacity: 0, transform: 'translateY(100px)', offset: 0}),
-                style({opacity: 0, transform: 'translateY(100px)', offset: .20}),
+              animate('1000ms 1650ms', keyframes([
+                style({opacity: 0, transform: 'translateY(85px) scale(.2)', offset: 0}),
+                style({opacity: 0, transform: 'translateY(85px) scale(.2)', offset: .20}),
                 style({opacity: 1, transform: 'translateY(0px)', offset: 1})
               ]))
             ])
@@ -109,9 +109,9 @@ import {
               opacity: '1'
             })),
             transition('void => start', [
-              animate('1000ms 2250ms', keyframes([
-                style({opacity: 0, transform: 'translateY(100px) translateX(-100px)', offset: 0}),
-                style({opacity: 0, transform: 'translateY(100px) translateX(-100px)', offset: .20}),
+              animate('1000ms 2300ms', keyframes([
+                style({opacity: 0, transform: 'translateY(10px) translateX(-25px) scale(.2)', offset: 0}),
+                style({opacity: 0, transform: 'translateY(10px) translateX(-25px) scale(.2)', offset: .20}),
                 style({opacity: 1, transform: 'translateY(0px) translateX(0px)', offset: 1})
               ]))
             ])
