@@ -3,13 +3,21 @@
     height: 100vh;
     background-color: black;
     margin: auto;
+    display:flex;
     text-align: center;
+    justify-content: center;
+    align-content: center;
+    flex-flow: column;
 }
 lotus-app {
     position: relative;
 }
-.hey {
+.lotusContainer {
     width: 300px;
     height: 300px;
     margin: auto;
+}
+.head {
+    color: white;
+    opacity: 0;
 }
